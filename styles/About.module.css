@@ -1,0 +1,37 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    
+  }
+  
+  .hero {
+    background-color: #4353ac;
+    padding: 3rem 0;
+    color: aliceblue;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .content {
+    padding: 3rem 0;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  .main{
+    height: 500px;
+  }
+  

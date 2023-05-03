@@ -1,0 +1,76 @@
+.container {
+  direction: rtl;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #0070f3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #0059b3;
+}
+.linkcontainer {
+  /* Set the background color to light gray */
+  background-color: #f0f0f0;
+
+  /* Set the font size to 16 pixels */
+  font-size: 16px;
+
+  /* Add a margin of 10 pixels around the div */
+  margin: 10px;
+
+  /* Set the padding to 20 pixels */
+  padding: 20px;
+
+  /* Add a border of 1 pixel solid black */
+  border: 1px solid black;
+}
+.linkcontainer a {
+  text-decoration: underline;
+  color: #0070f3;
+}
+.linkcontainer a:hover{
+  cursor: pointer;
+
+}
+.linkcontainer p:hover{
+  color: red;
+}
+.linkcontainer p {
+  font-weight: bold;
+}
+.successmessage {
+  width: 350px;
+  height: 30px;
+  color: green;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
